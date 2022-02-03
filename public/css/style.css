@@ -47,7 +47,9 @@ text-align: center;
     h1{
       font-size: 7.5rem;
     }
-    .col-12{
+
+    .main{
+      margin-top: 8%;
       padding-left: 5%;
       padding-right: 5%;
     }
