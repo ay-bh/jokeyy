@@ -22,7 +22,7 @@ app.get("/", function(req,res){
 
 app.post("/", function(req, res){
 
-    let url = "https://v2.jokeapi.dev/joke/Any";
+    let url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=religious,racist";
    // console.log(url);
     https.get(url , (response) =>{
         console.log(response.statusCode);
