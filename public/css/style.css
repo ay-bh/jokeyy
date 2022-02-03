@@ -4,71 +4,79 @@ body {
   width: auto;
   background-color: #161616;
   color: white;
+  overflow-x: hidden;
 }
 
-  
 
-  h1{
-    padding-top: 3%;
-    padding-bottom: 11%;
-    font-size: 10rem;
-    text-align: center;
-    font-family: 'Neonderthaw', cursive;
-  }
-  p, h6{
-    font-size: 2.5rem;
-    text-align: center;
-  }
-  form{
-   text-align: center;
-  }
-
-  .btn-lg{
-    font-size: 2.5rem;
-    padding:0 5% 0;
-   margin-top: 8%;
-  }
-  h3{
-font-family: 'dosis', sans-serif;
-font-size: 1.2rem;
-
-padding-top: 6%;
-text-align: center;
-  }
-  a{
-    /*text-decoration: none;*/
-    color: #f0ffff;
-  }
-  a:hover{
-    font-size: 1.2rem;
-    color: turquoise;
-  }
-  @media only screen and (max-width: 768px) {
-    h1{
-      font-size: 7.5rem;
-    }
-
-    .main{
-      margin-top: 8%;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-  }
-
-  .gradient {
+h1 {
+  padding-top: 3%;
+  padding-bottom: 11%;
+  font-size: 10rem;
   text-align: center;
-  
+  font-family: 'Neonderthaw', cursive;
+}
+
+p,
+h6 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.btn-lg {
+  font-size: 2.5rem;
+  padding: 0 5% 0;
+  margin-top: 8%;
+}
+
+h3 {
+  font-family: 'dosis', sans-serif;
+  font-size: 1.2rem;
+
+  padding-top: 6%;
+  text-align: center;
+}
+
+a {
+  /*text-decoration: none;*/
+  color: #f0ffff;
+}
+
+a:hover {
+  font-size: 1.2rem;
+  color: turquoise;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 7.5rem;
+  }
+
+  .main {
+    margin-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.gradient {
+  text-align: center;
+
   background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1, #5ffbf1, #46eefa, #41dfff, #52cffe, #69bff8, #79b3f4, #8aa7ec, #9a9ae1, #aa8fd8, #ba83ca, #c777b9, #d16ba5);
   background-size: 300% auto;
   background-clip: text;
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+
   animation: gradient 12s linear infinite;
 }
-  @keyframes gradient {
-    to {
-      background-position: 300% center;
-    }
+
+@keyframes gradient {
+  to {
+    background-position: 300% center;
   }
+}
